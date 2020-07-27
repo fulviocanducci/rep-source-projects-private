@@ -32,5 +32,5 @@ app.get("/person/:id", (request, response) => {
 });
 
 app.listen(PORT, () => {
-  console.log("Init Server Port: " + PORT);
+  console.log(`> Init Server Port: ${PORT}`);
 });
